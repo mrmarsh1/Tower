@@ -1,0 +1,38 @@
+[package]
+name = "webapp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+webgl = { path = "../webgl" }
+utils = { path = "../utils" }
+wasm-bindgen = "0.2.91"
+js-sys = "0.3.68"
+wasm-bindgen-futures = "0.4.41"
+byteorder = "1.5.0"
+image = "0.24.9"
+
+[dependencies.web-sys]
+features = [
+    'Document',
+    'Element',
+    'HtmlCanvasElement',
+    'WebGlBuffer',
+    'WebGlVertexArrayObject',
+    'WebGl2RenderingContext',
+    'WebGlProgram',
+    'WebGlShader',
+    'WebGlUniformLocation',
+    'WebGlBuffer',
+    'WebGlTexture',
+    'Window',
+    'MouseEvent',
+    'MouseScrollEvent',
+    'KeyboardEvent',
+    'console',
+    'Request',
+    'RequestInit',
+    'RequestMode',
+    'Response',
+    'Performance',
+]

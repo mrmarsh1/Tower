@@ -1,0 +1,12 @@
+[package]
+name = "utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+js-sys = "0.3.68"
+
+[dependencies.web-sys]
+features = [
+    'console',
+]
