@@ -2,7 +2,7 @@
 WebGL 3d renderer written in Rust.
 
 ### Example scene
-[![Aircraft](/examples/aircraft/aircraft.png)](https://tmarsh77.github.io/store.github.io/aircraft/index.html)
+[![Aircraft](/examples/aircraft/aircraft.png)](https://mrmarsh1.github.io/store.github.io/aircraft/index.html)
 
 ### Example code
 Init ECS:
